@@ -1,0 +1,11 @@
+.title__sidebar {
+	font-family: 'Kanit', sans-serif;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	background-color: #353535;
+}
