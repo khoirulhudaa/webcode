@@ -75,5 +75,12 @@
         "title": "CRUD Javascript",
         "type": "Javascript",
         "deskripsi": "Kode yang membantu kita untuk melakukan setup ketika menggunakan reduxHooks di Reactjs"
+    },  
+     {
+        "id": "SHDG62",
+        "link": "https://stackblitz.com/edit/react-9wpkqv",
+        "title": "JSON web token",
+        "type": "Jwt",
+        "deskripsi": "Kode yang membantu kita untuk melakukan setup ketika menggunakan reduxHooks di Reactjs"
     }
 ]

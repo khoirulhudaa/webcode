@@ -1,7 +1,7 @@
 import react, { useEffect, useState } from "react";
 import "./modal.module.css";
 import { useSelector } from "react-redux";
-import { React, ReactTable, Tailwind, Redux, Router, Firebase, Fontawesome, Node, Mongodb, Javascript } from "../../assets";
+import { React, ReactTable, Tailwind, Redux, Router, Firebase, Fontawesome, Node, Mongodb, Javascript, Jwt } from "../../assets";
 
 export default function Modal({Close, data}) {
 	return (
@@ -19,6 +19,7 @@ export default function Modal({Close, data}) {
 						data.type === "Mongodb" ? Mongodb :
 						data.type === "Javascript" ? Javascript :
 						data.type === "Fontawesome" ? Fontawesome :
+						data.type === "Jwt" ? Jwt :
 						Router
 					}
 						alt="icon language"

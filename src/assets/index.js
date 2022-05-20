@@ -8,8 +8,10 @@ import Mongodb from "./mongodb.png";
 import Javascript from "./javascript.png";
 import Node from "./node.png";
 import Fontawesome from "./fontawesome.png";
+import Jwt from "./jwt.png";
 
 export {
+	Jwt,
 	Fontawesome,
 	React,
 	ReactTable,

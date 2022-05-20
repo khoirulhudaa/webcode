@@ -1,6 +1,6 @@
 import react, { useState, useRef, useEffect } from "react";
 import './homepage.module.css';
-import { React, ReactTable, Tailwind, Redux, Router, Firebase, Node, Mongodb, Fontawesome, Javascript } from "../../assets";
+import { React, ReactTable, Tailwind, Redux, Router, Firebase, Node, Mongodb, Fontawesome, Javascript, Jwt } from "../../assets";
 import { Modal, Footer } from "../../components";
 import Data from "../../data";
 import "./homepage.module.css";
@@ -90,6 +90,7 @@ export default function Homepage() {
 											portofolio.type === "Mongodb" ? Mongodb :
 											portofolio.type === "Javascript" ? Javascript :
 											portofolio.type === "Fontawesome" ? Fontawesome :
+											portofolio.type === "Jwt" ? Jwt :
 											Router
 										} 
 											alt="icon language" 
